@@ -36,7 +36,12 @@ const Hero = () => {
                 </a>
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-                View Menu
+                <a
+                  target="_blank"
+                  href="https://instadelivery.com.br/telepizzaraizdeminas"
+                >
+                  Ver Menu
+                </a>
               </Button>
             </div>
 
