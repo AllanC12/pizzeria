@@ -17,12 +17,12 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <div className="w-6 h-6 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center text-white font-bold text-xs">
-              P
+              R
             </div>
-            <span className="text-lg font-semibold text-card-foreground">Bella Pizza</span>
+            <span className="text-lg font-semibold text-card-foreground">Raiz de Minas</span>
           </div>
           <p className="text-muted-foreground">
-            © 2024 Bella Pizza. Authentic Italian flavors since 1994.
+            © 2025 Raiz de Minas. Developed by Ansoft with Lovable.
           </p>
         </div>
       </footer>

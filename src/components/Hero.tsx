@@ -3,55 +3,64 @@ import heroPizza from "@/assets/hero-pizza.jpg";
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20"
+    >
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10"></div>
-      
+
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 text-center lg:text-left">
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-              <span className="text-foreground">Authentic Italian</span>
+              <span className="text-foreground">Mais do que pizza</span>
               <br />
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                Pizza Experience
+                Oferecemos experiência
               </span>
             </h1>
-            
+
             <p className="text-xl text-muted-foreground max-w-lg">
-              Fresh ingredients, traditional recipes, and a passion for perfection. 
-              Taste the difference that three generations of pizza-making brings to every bite.
+              Ingredientes frescos, receitas tradicionais e uma paixão pela
+              perfeição. Aproveite a sensação que nossas pizzas trazem a cada
+              mordida.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-                Order Online
+                <a
+                  target="_blank"
+                  href="https://instadelivery.com.br/telepizzaraizdeminas"
+                >
+                  Pedir online
+                </a>
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-6">
                 View Menu
               </Button>
             </div>
-            
+
             <div className="flex items-center gap-8 text-sm text-muted-foreground justify-center lg:justify-start">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span>Fresh Daily</span>
+                <span>Fresco todos os dias</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-secondary rounded-full"></div>
-                <span>Family Recipe</span>
+                <span>Receita de família</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-accent rounded-full"></div>
-                <span>Fast Delivery</span>
+                <span>Entrega rápida</span>
               </div>
             </div>
           </div>
-          
+
           <div className="relative">
             <div className="relative z-10">
-              <img 
-                src={heroPizza} 
-                alt="Delicious authentic Italian pizza with fresh ingredients" 
+              <img
+                src={heroPizza}
+                alt="Delicious authentic Italian pizza with fresh ingredients"
                 className="w-full h-auto rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
               />
             </div>
