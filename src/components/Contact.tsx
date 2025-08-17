@@ -34,7 +34,7 @@ const Contact = () => {
               <div className="bg-card p-6 rounded-xl shadow-md border border-border">
                 <h3 className="text-xl font-semibold mb-4 text-card-foreground flex items-center gap-3">
                   <span className="text-2xl">🕒</span>
-                  Hours
+                 Horários
                 </h3>
                 <div className="space-y-2 text-muted-foreground">
                   <p>Segunda - Terça: 17:00 - 20:00</p>
@@ -49,14 +49,14 @@ const Contact = () => {
                   Contato
                 </h3>
                 <div className="space-y-2 text-muted-foreground">
-                  <p>Phone: (37)9 9115-8901</p>
+                  <p>Telefone: <a href="wa.me/3799115-8901"></a></p>
                   <p>Instagram: <a target="_blank" href="https://www.instagram.com/raizdeminas5?igsh=MXNidHRvaGpxM2RrdA==">@raizdeminas</a></p>
                 </div>
               </div>
             </div>
             
             <div className="bg-card p-8 rounded-xl shadow-lg border border-border">
-              <h3 className="text-2xl font-semibold mb-6 text-card-foreground">Order Now</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-card-foreground">Pedir Agora</h3>
               <div className="space-y-4">
                 <Button variant="hero" size="lg" className="w-full py-6 text-lg">
                   🍕 Pedir por delivery
