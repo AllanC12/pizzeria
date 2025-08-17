@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://AllanC12.github.io/raiz-de-minas",
+  "homepage": "https://allanc12.github.io/raiz-de-minas",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
