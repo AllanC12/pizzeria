@@ -27,22 +27,26 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-                <a
-                  target="_blank"
-                  href="https://instadelivery.com.br/telepizzaraizdeminas"
-                >
+              <a
+                target="_blank"
+                href="https://instadelivery.com.br/telepizzaraizdeminas"
+              >
+                <Button variant="hero" size="lg" className="text-lg px-8 py-6">
                   Pedir online
-                </a>
-              </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-                <a
-                  target="_blank"
-                  href="https://instadelivery.com.br/telepizzaraizdeminas"
+                </Button>
+              </a>
+              <a
+                target="_blank"
+                href="https://instadelivery.com.br/telepizzaraizdeminas"
+              >
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="text-lg px-8 py-6"
                 >
                   Ver Menu
-                </a>
-              </Button>
+                </Button>
+              </a>
             </div>
 
             <div className="flex items-center gap-8 text-sm text-muted-foreground justify-center lg:justify-start">

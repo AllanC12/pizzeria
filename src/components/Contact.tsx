@@ -49,7 +49,7 @@ const Contact = () => {
                   Contato
                 </h3>
                 <div className="space-y-2 text-muted-foreground">
-                  <p>Telefone: <a href="wa.me/3799115-8901"></a></p>
+                  <p>Telefone: <a href="https://wa.me/+5537991158901">3799115-8901</a></p>
                   <p>Instagram: <a target="_blank" href="https://www.instagram.com/raizdeminas5?igsh=MXNidHRvaGpxM2RrdA==">@raizdeminas</a></p>
                 </div>
               </div>
