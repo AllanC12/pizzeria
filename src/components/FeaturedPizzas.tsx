@@ -3,23 +3,23 @@ import { Button } from "@/components/ui/button";
 const FeaturedPizzas = () => {
   const pizzas = [
     {
-      name: "Margherita Classica",
-      description: "Fresh mozzarella, San Marzano tomatoes, fresh basil, extra virgin olive oil",
-      price: "$18",
+      name: "Calabresa",
+      description: "Pizza de calabresa com fatias selecionadas, cheddars espalhado uniformemente e massa artesanal",
+      price: "R$66,90",
       image: "🍕",
       popular: true
     },
     {
-      name: "Pepperoni Supreme",
-      description: "Premium pepperoni, mozzarella, signature tomato sauce, oregano",
-      price: "$22",
+      name: "Bacon com milho",
+      description: "Pizza de bacon com milho, bacon crocante selecionado, milho doce distribuído uniformemente",
+      price: "R$69,90",
       image: "🍕",
       popular: false
     },
     {
-      name: "Quattro Stagioni",
-      description: "Artichokes, mushrooms, ham, olives, mozzarella, tomato base",
-      price: "$26",
+      name: "Frango com Catupiry",
+      description: "Pizza de frango com catupiry, frango temperado cuidadosamente, catupiry cremoso espalhado uniformemente",
+      price: "R$69,90",
       image: "🍕",
       popular: true
     }
@@ -30,13 +30,13 @@ const FeaturedPizzas = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">
-            <span className="text-foreground">Featured </span>
+            <span className="text-foreground">Pizzas em </span>
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Pizzas
+              destaque
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Discover our most beloved creations, each made with passion and authentic Italian ingredients
+             Descubra nossas criações mais queridas, cada uma feita com paixão e ingredientes italianos autênticos
           </p>
         </div>
         
@@ -45,7 +45,7 @@ const FeaturedPizzas = () => {
             <div key={index} className="bg-card rounded-2xl shadow-lg border border-border overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
               {pizza.popular && (
                 <div className="bg-gradient-to-r from-primary to-secondary text-primary-foreground text-sm font-semibold px-4 py-2 text-center">
-                  Most Popular
+                  Mais popular
                 </div>
               )}
               
@@ -61,7 +61,7 @@ const FeaturedPizzas = () => {
                 <div className="flex items-center justify-between">
                   <span className="text-3xl font-bold text-primary">{pizza.price}</span>
                   <Button variant="warm" className="px-6">
-                    Add to Cart
+                    Adicionar
                   </Button>
                 </div>
               </div>
@@ -71,7 +71,7 @@ const FeaturedPizzas = () => {
         
         <div className="text-center mt-12">
           <Button variant="outline" size="lg" className="px-8 py-6 text-lg">
-            View Full Menu
+           Ver Menu
           </Button>
         </div>
       </div>

@@ -7,13 +7,13 @@ const Contact = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">
-              <span className="text-foreground">Get in </span>
+              <span className="text-foreground">Entre em </span>
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                Touch
+                contato
               </span>
             </h2>
             <p className="text-xl text-muted-foreground">
-              Ready to taste authentic Italian pizza? We're here to serve you!
+              Pronto para saborear uma autêntica pizza? Estamos aqui para atendê-lo!
             </p>
           </div>
           
@@ -22,12 +22,12 @@ const Contact = () => {
               <div className="bg-card p-6 rounded-xl shadow-md border border-border">
                 <h3 className="text-xl font-semibold mb-4 text-card-foreground flex items-center gap-3">
                   <span className="text-2xl">📍</span>
-                  Location
+                  Localização
                 </h3>
                 <p className="text-muted-foreground">
-                  123 Main Street<br />
-                  Little Italy District<br />
-                  New York, NY 10013
+                  São Francisco de Paula<br />
+                  Minas Gerais<br />
+                  Delivery e retirada
                 </p>
               </div>
               
@@ -37,20 +37,20 @@ const Contact = () => {
                   Hours
                 </h3>
                 <div className="space-y-2 text-muted-foreground">
-                  <p>Monday - Thursday: 11am - 10pm</p>
-                  <p>Friday - Saturday: 11am - 11pm</p>
-                  <p>Sunday: 12pm - 9pm</p>
+                  <p>Segunda - Terça: 17:00 - 20:00</p>
+                  <p>Sexta - Sábado: 17:00 - 22:00</p>
+                  <p>Domingo: 18:00 - 23:00</p>
                 </div>
               </div>
               
               <div className="bg-card p-6 rounded-xl shadow-md border border-border">
                 <h3 className="text-xl font-semibold mb-4 text-card-foreground flex items-center gap-3">
                   <span className="text-2xl">📞</span>
-                  Contact
+                  Contato
                 </h3>
                 <div className="space-y-2 text-muted-foreground">
-                  <p>Phone: (555) 123-PIZZA</p>
-                  <p>Email: hello@bellapizza.com</p>
+                  <p>Phone: (37)9 9115-8901</p>
+                  <p>Instagram: <a target="_blank" href="https://www.instagram.com/raizdeminas5?igsh=MXNidHRvaGpxM2RrdA==">@raizdeminas</a></p>
                 </div>
               </div>
             </div>
@@ -59,19 +59,19 @@ const Contact = () => {
               <h3 className="text-2xl font-semibold mb-6 text-card-foreground">Order Now</h3>
               <div className="space-y-4">
                 <Button variant="hero" size="lg" className="w-full py-6 text-lg">
-                  🍕 Order for Delivery
+                  🍕 Pedir por delivery
                 </Button>
                 <Button variant="outline" size="lg" className="w-full py-6 text-lg">
-                  📞 Call to Order
+                  📞 Ligar para pedir
                 </Button>
                 <Button variant="secondary" size="lg" className="w-full py-6 text-lg">
-                  🏪 Order for Pickup
+                  🏪 Reservar retirada
                 </Button>
               </div>
               
               <div className="mt-8 p-4 bg-gradient-to-r from-accent/20 to-primary/20 rounded-lg">
                 <p className="text-sm text-center text-muted-foreground">
-                  <strong>Free Delivery</strong> on orders over $25 within 3 miles
+                  <strong>Entregas longas</strong> sujeito à taxas
                 </p>
               </div>
             </div>
